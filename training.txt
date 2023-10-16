@@ -1,0 +1,3 @@
+python segment/train.py --data /mnt/DATA/TsangyuLin/Taipei/Taipei-StreetViews/YOLODataset/dataset.yaml --workers 20 --batch 6 --weights '' --cfg yolov7-seg.yaml --epochs 500 --name yolov7-seg --img 640 --hyp hyp.scratch-high.yaml
+
+
